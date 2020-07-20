@@ -16,11 +16,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "android": {
+      "package": "com.ShineSquad.auth",
+      "googleServicesFile": "./constants/google.json"
     }
   }
 }
